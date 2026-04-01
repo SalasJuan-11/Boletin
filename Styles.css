@@ -1,11 +1,16 @@
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
-    background: white; /* TODO blanco */
+    background: white;
     font-family: Arial, sans-serif;
 }
 
-/* CONTENEDOR PRINCIPAL */
+/* CONTENEDOR */
 .boleta {
+    min-height: 100vh; /* 🔥 esto quita el gris abajo */
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -34,7 +39,6 @@ body {
     text-align: center;
 }
 
-/* TEXTOS */
 .titulo h1 {
     font-size: 16px;
     margin: 0;
