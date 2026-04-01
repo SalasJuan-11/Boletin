@@ -1,0 +1,64 @@
+body {
+    background: #ddd;
+    font-family: Arial;
+}
+
+.boleta {
+    width: 1100px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    text-align: center;
+    flex: 1;
+}
+
+.logo-izq {
+    width: 120px;
+}
+
+.foto-der {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/* DATOS */
+.datos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+/* TABLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+}
+
+th {
+    background: #eee;
+}
+
+/* FIRMA */
+.firma {
+    text-align: center;
+    margin-top: 40px;
+}
